@@ -1,0 +1,141 @@
+body {
+    background-color: #212129;
+}
+
+.title .select {
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    padding-top: 6%;
+    padding-left: 12%;
+}
+
+/* App dev Button style */
+.app-dev {
+    width: 400px;
+    height: 85px;
+    border: 2px solid black;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    left: 28%;
+    font-size: 40px;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.app-dev:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.app-dev:active {
+    color: #111
+}
+
+.app-dev:active:after {
+    background: transparent;
+}
+
+.app-dev:hover:before {
+    opacity: 1;
+}
+
+.app-dev:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #212129;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* Web dev button style */
+
+
+.web-dev {
+    width: 400px;
+    height: 85px;
+    border: 2px solid black;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    font-size: 35px;
+    z-index: 0;
+    border-radius: 10px;
+  }
+  
+  .web-dev:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .web-dev:active {
+    color: #111
+  }
+  
+  .web-dev:active:after {
+    background: transparent;
+  }
+  
+  .web-dev:hover:before {
+    opacity: 1;
+  }
+  
+  .web-dev:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #212129;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }

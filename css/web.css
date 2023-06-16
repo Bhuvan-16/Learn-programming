@@ -1,0 +1,45 @@
+body {
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+}
+
+.content .description h1{
+    margin-top: 50px;
+}
+
+.content .description p{
+    text-align: justify;
+    font-size: large;
+}
+
+.content .tutorials .iframe1 {
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.content .tutorials .iframe2 {
+    margin-right: 20px;
+    border: 1px solid black;
+}
+.content .tutorials .iframe3 {
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.back button {
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: #f6466f;
+    color: white;
+    font-size: large;
+    border-radius: 25px;
+    padding: 25px 60px 25px 60px;
+    transition: 0.5s;
+}
+.back button:hover{
+    background-color: #eb2553;
+    transition: 0.5s;
+}

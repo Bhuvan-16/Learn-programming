@@ -1,2 +1,1 @@
-# Learn-programming
-tinkerpreneur project
+Free resources for learning programming
